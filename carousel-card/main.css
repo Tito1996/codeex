@@ -1,0 +1,57 @@
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+    margin-top: 100px;
+    background: rgb(255, 0, 0);
+    height: 300px;
+}
+.div-producto{
+    width: 66%;
+    height: 300px;
+    margin-right: 10px;
+    background: #8C8;
+}
+.div-producto:before{
+    display: block;
+    text-align: center;
+    line-height: 300px;
+    font-size: 80px;
+    color: white;
+}
+.row{
+    width: 100%;
+    height: 100%;
+}
+.col-izq{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.col-der{
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+.card-img{
+    background-position: center;
+    width: 100%;
+    height: inherit;
+}
+.card-title{
+    padding-left: 20px;
+}
+.card-text{
+    padding-left: 20px;
+}
+.mini-text{
+    color: rgb(39, 39, 39);
+    font-size: 10px;
+}
+

@@ -1,0 +1,46 @@
+body{ background: black url(../img/fondo.png) no-repeat center; }
+
+/** Centered Div**/
+.container { 
+    height: 100vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu { 
+    border: 3px solid aliceblue;
+    width: 30vw;
+    height: 400px;
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+}
+.grid-parent{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-child{
+    padding: 20px;
+}
+.grid-child a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/** Making it Responsive **/
+@media(max-width:1500px){
+    .menu{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width: 1000px){
+    .menu{
+        height: 550px;
+        font-size: 1.5rem;
+    }
+    .grid-parent{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

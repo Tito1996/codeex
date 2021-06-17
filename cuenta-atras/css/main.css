@@ -1,0 +1,11 @@
+#centrado {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#countdown {
+    width: 50vw;
+    font-size: 25px;
+    font-family: monospace;
+}
